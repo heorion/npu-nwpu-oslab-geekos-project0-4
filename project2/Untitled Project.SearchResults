@@ -1,0 +1,4 @@
+---- Activate_User_Context Matches (3 in 1 files) ----
+Lowlevel.asm (src\geekos):%macro Activate_User_Context 0
+Lowlevel.asm (src\geekos):	Activate_User_Context
+Lowlevel.asm (src\geekos):	Activate_User_Context

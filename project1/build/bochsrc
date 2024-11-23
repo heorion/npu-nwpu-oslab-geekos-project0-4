@@ -1,0 +1,19 @@
+vgaromimage: file=/usr/local/share/bochs/VGABIOS-lgpl-latest
+#romimage: file=/usr/local/share/bochs/BIOS-bochs-latest
+
+
+megs: 8
+boot: a
+#gdbstub: enabled=1, port=1234, text_base=0, data_base=0, bss_base=0
+floppya: 1_44=fd.img, status=inserted
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+ata0-master: type=disk, path=diskc.img, mode=flat, cylinders=40, heads=8, spt=63, translation=none
+
+
+log: ./bochs.out
+keyboard: serial_delay=200
+
+vga: update_freq=5
+mouse: enabled=0
+private_colormap: enabled=0
+pci: enabled=1, chipset=i440fx
