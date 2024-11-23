@@ -1,4 +1,4 @@
-# -npu-nwpu-oslab-geekos-project0-4
+# npu-nwpu-oslab-geekos-project0-4
 
 ---
 西北工业大学 操作系统实验 基于2022修订版实验手册
